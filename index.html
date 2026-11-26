@@ -8,7 +8,7 @@
 window.applyTheme=function(){var v="auto";try{v=localStorage.getItem("fh_theme")||"auto"}catch(e){}var d=v==="dark"||(v==="auto"&&matchMedia("(prefers-color-scheme:dark)").matches);document.documentElement.dataset.theme=d?"dark":"light";var m=document.querySelector('meta[name=theme-color]');if(m)m.content=d?"#130e0f":"#ffffff"};
 applyTheme();matchMedia("(prefers-color-scheme:dark)").addEventListener("change",applyTheme);
 </script>
-<title>الفحوله</title>
+<title>frindy</title>
 <style>
 :root{--brand:#800020;--g:var(--brand);--bg:#f6f2f0;--card:#fff;--chat:#eee8e5;--in:#fff;--out:#800020;--outtx:#fff;--text:#1b1416;--muted:#7b6d70;--line:#e2d9d6;--ok:#2bb673;--acc:#800020;--tint:rgba(128,0,32,.08);--err:#c62828;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 :root[data-theme="dark"]{--brand:#7a1530;--bg:#130e0f;--card:#1c1517;--chat:#171112;--in:#261d20;--out:#7a1530;--text:#f2e9eb;--muted:#a8959a;--line:#2e2427;--acc:#ff8fab;--tint:rgba(255,143,171,.1);--err:#ff8a8a;color-scheme:dark}
